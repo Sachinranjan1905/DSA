@@ -34,25 +34,18 @@
  * ============================================================================
  */
 
-public class 0026_Remove_Duplicates_from_Sorted_Array {
-     public int removeDuplicates(int[] nums) {
-        int count=0;
-        int j=0;
-        if(nums.length==1){
-            return 1;
+public class RemoveDuplicatesFromSortedArray {
+    public int removeDuplicates(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        for(int i=0;i<nums.length-1;i++){
-            if(nums[i]!=nums[i+1]){
-                nums[j++]=nums[i];
-                count++;
+
+        int write = 1;
+        for (int read = 1; read < nums.length; read++) {
+            if (nums[read] != nums[read - 1]) {
+                nums[write++] = nums[read];
             }
         }
-        
-        nums[j]=nums[nums.length-1];
-        count++;
-    
-        return count;
-        
+        return write;
     }
-    
 }

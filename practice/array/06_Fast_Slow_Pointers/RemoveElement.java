@@ -33,34 +33,14 @@
  * ============================================================================
  */
 
-class Solution {
+public class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        int j = 0;
-
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != val) {
-                nums[j] = nums[i];
-                j++;
+        int write = 0;
+        for (int read = 0; read < nums.length; read++) {
+            if (nums[read] != val) {
+                nums[write++] = nums[read];
             }
         }
-
-        return j;
-    }
-}
-
-
-public class 0027_Remove_Element {
-public int removeElement(int[] nums, int val) {
-        int count=0;
-      
-        int j=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]!=val){
-                nums[j++]=nums[i];
-                count++;
-            }
-           
-        }
-        return count;
+        return write;
     }
 }
