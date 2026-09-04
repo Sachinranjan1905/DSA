@@ -1,8 +1,14 @@
-# 🔗 Linked List
+# Linked List
+
+### TheCodeOfTruth
+
+> **Turning Logic into Reality.**
 
 Mastering Linked List Data Structures & Algorithms in **Java**.
 
-This directory contains optimized Java solutions for **Linked List** problems from LeetCode. The solutions focus on clean code, efficient algorithms, and interview-oriented implementations commonly asked in top product-based companies.
+This directory contains Java solutions for LeetCode linked-list problems. Each solution focuses on readable pointer manipulation, appropriate complexity, and interview-ready reasoning.
+
+[Back to repository overview](../../README.md)
 
 ---
 
@@ -111,17 +117,17 @@ These problems are frequently asked in interviews at:
 Linked List
 │
 ├── README.md
-├── 0019_Remove_Nth_Node_From_End_of_List.java
-├── 0021_Merge_Two_Sorted_Lists.java
-├── 0024_Swap_Nodes_in_Pairs.java
-├── 0061_Rotate_List.java
-├── 0086_Partition_List.java
-├── 0092_Reverse_Linked_List_II.java
-├── 0141_Linked_List_Cycle.java
-├── 0203_Remove_Linked_List_Elements.java
-├── 0234_Palindrome_Linked_List.java
-├── 0328_Odd_Even_Linked_List.java
-└── 0876_Middle_of_the_Linked_List.java
+├── P0019_Remove_Nth_Node_From_End_of_List.java
+├── P0021_Merge_Two_Sorted_Lists.java
+├── P0024_Swap_Nodes_in_Pairs.java
+├── P0061_Rotate_List.java
+├── P0086_Partition_List.java
+├── P0092_Reverse_Linked_List_II.java
+├── P0141_Linked_List_Cycle.java
+├── P0203_Remove_Linked_List_Elements.java
+├── P0234_Palindrome_Linked_List.java
+├── P0328_Odd_Even_Linked_List.java
+└── P0876_Middle_of_the_Linked_List.java
 ```
 
 ---
